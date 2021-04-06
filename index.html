@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      type="image/svg"
+      href="./img/logo/fevicon.png"
+    />
+    <link rel="stylesheet" href="./css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/table1.js" defer></script>
+    <script src="./js/chartjs/Chart.min.js" defer></script>
+    <script src="./js/chartjs/chartsData.js" defer></script>
+    <title>Netbet</title>
+</head>
+<body>
+
+    <!-- Header Section Below -->
+    <header class="header">
+        <div class="header-top-container">
+            <div class="nav-top">
+                <div class="nav-logo-container">
+                    <a href="#"><img src="./img/logo/site-logo.png" alt="site-logo" class="nav-logo"></a>
+                </div>
+                <div class="login-form-container">
+                    <form action="" class="login-form">
+                        <div class="form-left">
+                            <input type="text" placeholder="Username">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <div class="form-right">
+                            <input type="password" placeholder="Password">
+                            <a href="./register.html">Register</a>
+                        </div>
+                        <a href="#" class="login-btn">LOG IN</a>
+                    </form>
+                </div>
+            </div>
+
+            <div class="nav-mid">
+                <ul class="nav-mid-list">
+                    <li class="nav-mid-list-li"><a href="./index.html" class="sel">SPORTS</a></li>
+                    <li class="nav-mid-list-li"><a href="./live.html">LIVE</a></li>
+                    <li class="nav-mid-list-li"><a href="./casino.html">CASINO</a></li>
+                    <li class="nav-mid-list-li"><a href="#">YANGAWIN PLAY</a></li>
+                    <li class="nav-mid-list-li"><a href="#">VIRTUAL</a></li>
+                    <li class="nav-mid-list-li"><a href="#">SUPERWIN</a></li>
+                    <li class="nav-mid-list-li"><a href="#">MOBILE</a></li> 
+                </ul>
+            </div>
+        </div>
+        <div class="header-bottom-container">
+            <div class="nav-bottom">
+                <ul class="nav-bottom-list">
+                    <li class="nav-bottom-list-li"><a href="./index.html">Home</a></li>
+                    <li class="nav-bottom-list-li"><a href="./faq.html">FAQ</a></li>
+                    <li class="nav-bottom-list-li"><a href="#">How to Deposit / Withdraw</a></li>
+                    <li class="nav-bottom-list-li"><a href="#">Tutorials</a></li>
+                    <li class="nav-bottom-list-li"><a href="#">Results</a></li>
+                    <li class="nav-bottom-list-li"><a href="#">Statistics</a></li>
+                    <li class="nav-bottom-list-li"><a href="#">Livescore</a></li>
+                    <li class="nav-bottom-list-li"><a href="./contact.html">Contact Us</a></li>
+                    
+                </ul>
+                <p class="nav-bottom-clock">GMT +1:00</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section Below  -->
+    <!-- style="background-image: url(../img/Main-banner.jpg)" -->
+    <main class="main-content">
+        <section class="section-content">
+            <div class="side-container">
+                <a href="#" class='join-btn1'>JOIN NOW</a>
+                <a href="#" class='join-btn2'>JOIN NOW</a>
+
+                <div class="side1">
+                    <form action="" class="search-container">
+                        <input class="search-input" type="text" maxlength="50" class="search" placeholder="Search">
+                        <button class="search-btn" type="submit"><img class="search-icon" src="./img/icons/search.png" alt="search icon"></button>
+                    </form>
+                
+                    <a href="#" class="liveBtn">LiveBetting</a>
+                    <a href="#" class="oddBtn">Odds Less Than</a>
+
+                    <div class="sport-container">
+                        <div class="sport-tabs-top">
+                            <ul class="sport-tabs">
+                                <li>
+                                    <p class="ctr">Today</p>
+                                </li>
+                                <li>
+                                    <p>1<br/>hr</p>
+                                </li>
+                                <li>
+                                    <p>3<br/>hrs</p>
+                                </li>
+                                <li>
+                                    <p>24<br/>hrs</p>
+                                </li>
+                                <li>
+                                    <p>72<br/>hrs</p>
+                                </li>
+                                <li class="onSel">
+                                    <p class="ctr">ALL</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div  id="sport" class="sport-tab-content">
+                            <div class="sport-tab-1">
+                                <ul class="list-container">
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/soccer.png" alt="">
+                                                <p class="p1">Soccer</p>
+                                            </div>
+                                            <p class="num">936</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>Simulated Reality League</p>
+                                                        <span class="sub-item-math"></span>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">Premier League SRL</a></li>
+                                                        <li><a href="#">LaLiga SRL</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img style="height: 21px;" src="./img/sports-icon/soccer-zoom.png" alt="">
+                                                <p class="p1">Soccer Zoom</p>
+                                            </div>
+                                            <p class="num">67</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>Premier-Zoom</p>
+                                                        
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">Premier-Zoom</a></li>
+                                                        <li><a href="#">LaLiga SRL</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/soccer-specials.png" alt="">
+                                                <p class="p1" >Soccer Specials</p>
+                                            </div>
+                                            <p class="num">355</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>To Be Shown A Card</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">Pohang - Busan</a></li>
+                                                        <li><a href="#">Gangwon - Seoul</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/award.png" alt="">
+                                                <p class="p1" >Goalscorer</p>
+                                            </div>
+                                            <p class="num">1496</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>Germany Bundesliga</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">Augsburg - Wolfburg</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/notepad.png" alt="">
+                                                <p class="p1" >Antepost Soccer</p>
+                                            </div>
+                                            <p class="num">2259</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>International</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">World Cup 2022 - Winner</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/tennis.png" alt="">
+                                                <p class="p1" >Tennis</p>
+                                            </div>
+                                            <p class="num">334</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/basketball.png" alt="">
+                                                <p class="p1" >Basketball</p>
+                                            </div>
+                                            <p class="num">29</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/basketball-special.png" alt="">
+                                                <p class="p1" >Basketball Specials</p>
+                                            </div>
+                                            <p class="num">6</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img style="height: 12px;" src="./img/sports-icon/helmet.png" alt="">
+                                                <p class="p1" >Football</p>
+                                            </div>
+                                            <p class="num">1</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img style="height: 12px;" src="./img/sports-icon/helmet-white.png" alt="">
+                                                <p class="p1" >American Football</p>
+                                            </div>
+                                            <p class="num">31</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/baseball.png" alt="">
+                                                <p class="p1" >Baseball</p>
+                                            </div>
+                                            <p class="num">13</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/Esports.png" alt="">
+                                                <p class="p1" >Esports</p>
+                                            </div>
+                                            <p class="num">37</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/handball.png" alt="">
+                                                <p class="p1" >Handball</p>
+                                            </div>
+                                            <p class="num">28</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/rugby.png" alt="">
+                                                <p class="p1" >Rugby</p>
+                                            </div>
+                                            <p class="num">11</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/volleyball.png" alt="">
+                                                <p class="p1" >Volleyball</p>
+                                            </div>
+                                            <p class="num">10</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/motorsport.png" alt="">
+                                                <p class="p1" >Motorsport</p>
+                                            </div>
+                                            <p class="num">20</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/ice-hockey.png" alt="">
+                                                <p class="p1" >Ice Hockey</p>
+                                            </div>
+                                            <p class="num">205</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/badminton.png" alt="">
+                                                <p class="p1" >Badminton</p>
+                                            </div>
+                                            <p class="num">12</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/bandy.png" alt="">
+                                                <p class="p1" >Bandy</p>
+                                            </div>
+                                            <p class="num">6</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/beach-soccer.png" alt="">
+                                                <p class="p1" >Beach Soccer</p>
+                                            </div>
+                                            <p class="num">3</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/Boxing.png" alt="">
+                                                <p class="p1" >Boxing</p>
+                                            </div>
+                                            <p class="num">18</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/cricket.png" alt="">
+                                                <p class="p1" >Cricket</p>
+                                            </div>
+                                            <p class="num">13</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/dart.png" alt="">
+                                                <p class="p1" >Dart</p>
+                                            </div>
+                                            <p class="num">16</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/floorball.png" alt="">
+                                                <p class="p1" >Floorball</p>
+                                            </div>
+                                            <p class="num">6</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/golf.png" alt="">
+                                                <p class="p1" >Golf</p>
+                                            </div>
+                                            <p class="num">12</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/MMA.png" alt="">
+                                                <p class="p1" >MMA</p>
+                                            </div>
+                                            <p class="num">37</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/snooker.png" alt="">
+                                                <p class="p1" >Snooker</p>
+                                            </div>
+                                            <p class="num">51</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/waterpolo.png" alt="">
+                                                <p class="p1" >Waterpolo</p>
+                                            </div>
+                                            <p class="num">4</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/footsal.png" alt="">
+                                                <p class="p1" >Footsal</p>
+                                            </div>
+                                            <p class="num">7</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/beach-volley.png" alt="">
+                                                <p class="p1" >Beach Volley</p>
+                                            </div>
+                                            <p class="num">11</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/soccer.png" alt="">
+                                                <p class="p1" >Soccer Fantasy</p>
+                                            </div>
+                                            <p class="num">21</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="list">
+                                        <div  class="list-top">
+                                            <div class="list-top-left">
+                                                <img src="./img/sports-icon/politics.png" alt="">
+                                                <p class="p1" >Politics</p>
+                                            </div>
+                                            <p class="num">38</p>
+                                        </div>
+
+                                        <div class="list-bottom drop">
+                                            <ul class="sub-list">
+                                                <li class="sub-item">
+                                                    <p><a href="#">Today's Matches</a></p>
+                                                    
+                                                </li>
+                                                <li class="sub-item1">
+                                                    <div class="sub-item1-top">
+                                                        <p>eSport Battle</p>
+                                                    </div>
+                                                    <ul class="item1-list drop">
+                                                        <li><a href="#">eSports Battle - Euro 2020</a></li>
+                                                        <li><a href="#">eSports Battle - Euro 2021</a></li>
+                                                        <li><a href="#">Cologne - Mainz</a></li>
+                                                    </ul>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <!-- Side2 Begins Below  ---------------------------------------------------->
+                <div class="side2">
+                    <div class="banner-container">
+                        <a href="#"><img src="./img/home-banner.jpg" alt="home banner"></a>
+                    </div>
+
+                    <div class="topbets-container">
+                        <div class="topbets-top">
+                            <h4>Top Bets</h4>
+                            <div class="topbets-tab"><a href="#">Soccer</a></div>
+                        </div>
+                        
+                        <div class="topbets-bottom">
+                            <div class="topbets-cell tabOn">
+                                <p>International Clubs</p>
+                                <h4>UEFA Europa</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>International Clubs</p>
+                                <h4>UEFA Europa</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>England</p>
+                                <h4>Premier League</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>Spain</p>
+                                <h4>Primiera Division</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>Italy</p>
+                                <h4>Series A</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>Germany</p>
+                                <h4>Bundesliga</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>France</p>
+                                <h4>League 1</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>England</p>
+                                <h4>Championship</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>Portugal</p>
+                                <h4>Primera Liga</h4>
+                            </div>
+                            <div class="topbets-cell">
+                                <p>International</p>
+                                <h4>European Championship</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="match-data-container">
+                        <table class="match-data-table">
+                          <tbody class="match-data-tbody">
+                            <tr class="stat-top">
+                                <th class="match">Match</th>
+                                <th colspan="3">1X2</th>
+                                <th colspan="3">Double Chance</th>
+                                <th colspan="3">O/U 2.5</th>
+                              </tr>
+                              <tr class="stat-bottom">
+                                <th></th>
+                                <th>1</th>
+                                <th>X</th>
+                                <th>2</th>
+                                <th>1X</th>
+                                <th>12</th>
+                                <th>X2</th>
+                                <th>Over</th>
+                                <th>Under</th>
+                              </tr>
+                              <tr class="date">
+                                <td colspan="9">Tuesday, 26 November</td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-time">18:55</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value active">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-time">18:55</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            
+                                            <span class="match-time">18:55</span>
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            
+                                            <span class="match-time">18:55</span>
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            
+                                            <span class="match-time">18:55</span>
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            
+                                            <span class="match-time">18:55</span>
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            
+                                            <span class="match-time">18:55</span>
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            
+                                            <span class="match-time">18:55</span>
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                      
+                              <tr class="date">
+                                <td colspan="9">Wednesday, 27 November</td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-time">18:55</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-time">18:55</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                      <!-- Upcoming Events  -->
+                      <div class="match-data-container">
+                        <div class="upco-top">
+                            <h4>Upcoming Events</h4>
+                            <div class="upco-tab">
+                                <a href="#" class="st1 st-on">Soccer</a>
+                                <a href="#" class="st2">Basket</a>
+                                <a href="#" class="st3">Tennis</a>
+                                <a href="#" class="st4">Soccer Fantasy</a>
+                            </div>
+                        </div>
+                        <table class="match-data-table">
+                          <tbody class="match-data-tbody">
+                            <tr class="stat-top">
+                                <th class="match">Match</th>
+                                <th colspan="3">1X2</th>
+                                <th colspan="3">Double Chance</th>
+                                <th colspan="3">O/U 2.5</th>
+                              </tr>
+                              <tr class="stat-bottom">
+                                <th></th>
+                                <th>1</th>
+                                <th>X</th>
+                                <th>2</th>
+                                <th>1X</th>
+                                <th>12</th>
+                                <th>X2</th>
+                                <th>Over</th>
+                                <th>Under</th>
+                              </tr>
+                              <tr class="date">
+                                <td colspan="9">Tuesday, 26 November</td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value active">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                              <tr class="stat-row">
+                                <td>
+                                    <div class="match-teams-content">
+                                        <div class="match-teams-content-a">
+                                            <span class="match-teams">Galatsaray - Club Brugge</span> 
+                                        </div>
+                                        <div class="match-teams-content-b">
+                                            <span class="match-date">07/11/2019</span>
+                                            <span class="match-time">18:55</span>
+                                            <a class="match-grap" href="#"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                                <td><span class="match-value">2.12</span></td>
+                              </tr>
+                      
+                              
+                          </tbody>
+                        </table>
+
+                        <div class="vall-container">
+                            <a href="#" class="vall-link">VIEW ALL OF TODAY’S MATCHES <i class="fas fa-angle-double-right vall-arrow"></i></a>
+                        </div>
+
+                      </div>
+
+
+                      <!-- Dougnut Chart  -->
+                      <div class="doe-container">
+                          <div class="doe-inner">
+                              <div class="doe-head">
+                                  <h4 class="doe-head-text">Hottest Over Under 2.5</h4>
+                              </div>
+
+                              <div class="doe-content">
+                                  <div class="doe-content-inner">
+
+                                    <div class="dnut-a">
+                                        <div class="dnut-a-inner">
+                                            <div class="dnut-top">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                                <img class="dnut-top-img" src="./img/icons/vs.png" alt="">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                            </div>
+
+                                            <div class="dnut-mid">
+                                                <div class="dnut-mid-inner">
+                                                    <div class="dnut-cent">
+                                                        <span class="dnut-cent-type">Ov</span>
+                                                        <span class="dnut-cent-num">97%</span>
+                                                    </div>
+                                                    <canvas id="chart-a"></canvas>
+                                                </div>
+                                            </div>
+
+                                            <div class="dnut-bottom">
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Over</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">1.60</span>
+                                                    </div>
+                                                </div>
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Under</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">2.40</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="dnut-a">
+                                        <div class="dnut-a-inner">
+                                            <div class="dnut-top">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                                <img class="dnut-top-img" src="./img/icons/vs.png" alt="">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                            </div>
+
+                                            <div class="dnut-mid">
+                                                <div class="dnut-mid-inner">
+                                                    <div class="dnut-cent">
+                                                        <span class="dnut-cent-type">Ov</span>
+                                                        <span class="dnut-cent-num">97%</span>
+                                                    </div>
+                                                    <canvas id="chart-b"></canvas>
+                                                </div>
+                                            </div>
+
+                                            <div class="dnut-bottom">
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Over</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">1.60</span>
+                                                    </div>
+                                                </div>
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Under</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">2.40</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="dnut-a">
+                                        <div class="dnut-a-inner">
+                                            <div class="dnut-top">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                                <img class="dnut-top-img" src="./img/icons/vs.png" alt="">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                            </div>
+
+                                            <div class="dnut-mid">
+                                                <div class="dnut-mid-inner">
+                                                    <div class="dnut-cent">
+                                                        <span class="dnut-cent-type">Ov</span>
+                                                        <span class="dnut-cent-num">97%</span>
+                                                    </div>
+                                                    <canvas id="chart-c"></canvas>
+                                                </div>
+                                            </div>
+
+                                            <div class="dnut-bottom">
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Over</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">1.60</span>
+                                                    </div>
+                                                </div>
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Under</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">2.40</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="dnut-a">
+                                        <div class="dnut-a-inner">
+                                            <div class="dnut-top">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                                <img class="dnut-top-img" src="./img/icons/vs.png" alt="">
+                                                <span class="dnut-top-team">Chelsea FC</span>
+                                            </div>
+
+                                            <div class="dnut-mid">
+                                                <div class="dnut-mid-inner">
+                                                    <div class="dnut-cent">
+                                                        <span class="dnut-cent-type">Ov</span>
+                                                        <span class="dnut-cent-num">97%</span>
+                                                    </div>
+                                                    <canvas id="chart-d"></canvas>
+                                                </div>
+                                            </div>
+
+                                            <div class="dnut-bottom">
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Over</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">1.60</span>
+                                                    </div>
+                                                </div>
+                                                <div class="dnut-bottom-data">
+                                                    <div class="dnut-bottom-head">
+                                                        <span class="dnut-bottom-head-text">Under</span>
+                                                    </div>
+                                                    <div class="dnut-bottom-sub">
+                                                        <span class="dnut-bottom-sub-text">2.40</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <!-- Bar Chart -->
+                      <div class="bar-container">
+                          <div class="bar-inner">
+                            <div class="bar-head">
+                                <h4 class="bar-head-text">Match Of The Day</h4>
+                            </div>
+                            <div class="bar-sub">
+                                <h4 class="bar-sub-text">Our users are placing the following bets</h4>
+                            </div>
+
+                            <div class="bar-content">
+                                <div class="bar-teams">
+                                    <div class="bar-teams-a">
+                                        <span class="bar-teams-a-name">OGC Nice</span>
+                                        <span class="bar-teams-a-num">1</span>
+                                    </div>
+                                    <div class="bar-teams-a">
+                                        <!-- <span class="bar-teams-a-name">OGC Nice</span> -->
+                                        <span class="bar-teams-a-num">X</span>
+                                    </div>
+                                    <div class="bar-teams-a">
+                                        <span class="bar-teams-a-name">Paris Saint Germain</span>
+                                        <span class="bar-teams-a-num">2</span>
+                                    </div>
+                                </div>
+
+                                <div class="odd-sel">
+                                    <div class="odd-sel-a">7.66</div>
+                                    <div class="odd-sel-a">4.25</div>
+                                    <div class="odd-sel-a">2.66</div>
+                                </div>
+
+                                <div class="odd-bars">
+                                    <div class="odd-bars-divs">
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                        <div class="odd-bars-divs-a"></div>
+                                    </div>
+
+                                    <div class="single-bar">
+                                        <div class="bar">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-bar">
+                                        <div class="bar">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-bar">
+                                        <div class="bar">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="percentages">
+                                    <div class="percentage">58%</div>
+                                    <div class="percentage">23%</div>
+                                    <div class="percentage">20%</div>
+                                </div>
+                            </div>
+
+                            <div class="odd-blocks">
+                                <div class="odd-blocks-a">
+                                    <div class="odd-blocks-a-head">Over/under  (2.5)</div>
+
+                                    <div class="odd-block-row">
+                                        <div class="odd-block-row-a">
+                                            <span class="odd-block-row-a-num">59%</span>
+                                            <span class="odd-block-row-a-text">Ov. 2.5</span>
+                                        </div>
+                                        <div class="odd-block-row-b">
+                                            <div class="odd-block-row-b-num">1.61</div>
+                                        </div>
+                                    </div>
+                                    <div class="odd-block-row">
+                                        <div class="odd-block-row-a">
+                                            <span class="odd-block-row-a-num">59%</span>
+                                            <span class="odd-block-row-a-text">Ov. 2.5</span>
+                                        </div>
+                                        <div class="odd-block-row-b">
+                                            <div class="odd-block-row-b-num">1.61</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="odd-blocks-a">
+                                    <div class="odd-blocks-a-head">Both teams to Score</div>
+
+                                    <div class="odd-block-row">
+                                        <div class="odd-block-row-a">
+                                            <span class="odd-block-row-a-num">59%</span>
+                                            <span class="odd-block-row-a-text">Ov. 2.5</span>
+                                        </div>
+                                        <div class="odd-block-row-b">
+                                            <div class="odd-block-row-b-num">1.61</div>
+                                        </div>
+                                    </div>
+                                    <div class="odd-block-row">
+                                        <div class="odd-block-row-a">
+                                            <span class="odd-block-row-a-num">59%</span>
+                                            <span class="odd-block-row-a-text">Ov. 2.5</span>
+                                        </div>
+                                        <div class="odd-block-row-b">
+                                            <div class="odd-block-row-b-num">1.61</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="odd-blocks-a">
+                                    <div class="odd-blocks-a-head">Draw no Bet</div>
+
+                                    <div class="odd-block-row">
+                                        <div class="odd-block-row-a">
+                                            <span class="odd-block-row-a-num">59%</span>
+                                            <span class="odd-block-row-a-text">Ov. 2.5</span>
+                                        </div>
+                                        <div class="odd-block-row-b">
+                                            <div class="odd-block-row-b-num">1.61</div>
+                                        </div>
+                                    </div>
+                                    <div class="odd-block-row">
+                                        <div class="odd-block-row-a">
+                                            <span class="odd-block-row-a-num">59%</span>
+                                            <span class="odd-block-row-a-text">Ov. 2.5</span>
+                                        </div>
+                                        <div class="odd-block-row-b">
+                                            <div class="odd-block-row-b-num">1.61</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                          </div>
+                      </div>
+                    
+                </div>
+
+                <!-- Side3 Begins Below  ---------------------------------------------------->
+                <div class="side3">
+                    <a href="./register.html" class="registerBtn">REGISTER NOW!</a>
+                    
+                    <div class="betslip">
+                        <div class="top">
+                            <h3>Betslip</h3>
+                            <span class="selection-num">No. Selections 1</span>
+                        </div>
+
+                        <div class="mid">
+                            <div class="mid1">
+                                <p>Insert Booking Number <a href="#"><img src="./img/icons/info-icon-green.png" alt="info icon"></a></p>
+                            </div>
+                            
+                            <form action="" class="midForm">
+                                <input type="text">
+                                <button type="submit">Load</button>
+                            </form>
+                        </div>
+
+                        <div class="bottom">
+                            <p>Click on the odds to add to your betslip</p>
+                        </div>
+
+                        <div class="bs-dets">
+
+                            <div class="bs-dets-a">
+                                <span class="bs-dets-aa">1069</span>
+                                <span class="bs-dets-ab">Z.Augsburg - Z.RB Leipzig</span>
+                            </div>
+
+                            <div class="bs-dets-b">
+                                <span class="bs-dets-ba">X1X2</span>
+                                <div class="bs-dets-bb">
+                                    <span class="bs-num">330</span>
+                                    <span class="bs-cls">X</span>
+                                </div>
+                            </div>
+
+                            <div class="bs-amt">
+                                <span class="bs-txt">Amount</span>
+                                <div class="bs-amt-cur">
+                                    <input class="bs-amt-input" type="text">
+                                    <span class="bs-amt-type">₦</span>
+                                </div>
+                            </div>
+
+                            <div class="bs-bonus">
+                                <span class="bs-bonus-txt">Bonus</span>
+                                <div class="bs-bonus-content">
+                                    <span class="bs-bonus-num">0.00</span>
+                                    <span class="bs-bonus-cur">₦</span>
+                                </div>
+                            </div>
+
+                            <div class="bs-bonus">
+                                <span class="bs-bonus-txt">Pot. Winnings<i class="fas fa-sync-alt bs-bonus-sync"></i></span>
+                                <div class="bs-bonus-content">
+                                    <span class="bs-bonus-num">0</span>
+                                    <span class="bs-bonus-cur">₦</span>
+                                </div>
+                            </div>
+
+                            <div class="bs-btns">
+                                <a class="bs-btn" href="#">RESET</a>
+                                <a class="bs-btn" href="#">100</a>
+                                <a class="bs-btn" href="#">200</a>
+                                <a class="bs-btn" href="#">500</a>
+                                <a class="bs-btn" href="#">1000</a>
+                            </div>
+
+                            <div class="bs-out">
+                                <a class="bs-out-a" href="#">Cancel</a>
+                                <a class="bs-out-b" href="#">Bet</a>
+                            </div>
+
+                            <div class="bs-info">
+                                This bet contains Zoom Soccer
+                                VIRTUAL events. For more info see
+                                <a class="bs-info-link" href="#">Zoom T&Cs.</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="quickPlay">
+                        <div class="quickTop">
+                            <h3>Quick Play Games</h3>
+                        </div>
+                        <div class="quickBottom">
+                            <ul class="quickGames">
+                                <li>
+                                    <div class="game">
+                                        <img src="./img/icons/game1.jpg" alt="game icon">
+                                        <p>Roulette</p>
+                                    </div>
+                                    <div class="gameModal">
+                                        <a href="#"  class="gameInfoContainer">
+                                            <img src="./img/icons/icon--info.png" alt="info icon" class="gameInfo" />
+                                        </a>
+                                        <div class="gameModalBtns">
+                                            <a href="#" class="gameBtn1">PLAY NOW</a>
+                                            <a href="#" class="gameBtn2">Demo</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="game">
+                                        <img src="./img/icons/game2.jpg" alt="game icon">
+                                        <p>Manga Beach</p>
+                                    </div>
+                                    <div class="gameModal">
+                                        <a href="#"  class="gameInfoContainer">
+                                            <img src="./img/icons/icon--info.png" alt="info icon" class="gameInfo" />
+                                        </a>
+                                        <div class="gameModalBtns">
+                                            <a href="#" class="gameBtn1">PLAY NOW</a>
+                                            <a href="#" class="gameBtn2">Demo</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="game">
+                                        <img src="./img/icons/game3.jpg" alt="game icon">
+                                        <p>Pirate Instant</p>
+                                    </div>
+                                    <div class="gameModal">
+                                        <a href="#"  class="gameInfoContainer">
+                                            <img src="./img/icons/icon--info.png" alt="info icon" class="gameInfo" />
+                                        </a>
+                                        <div class="gameModalBtns">
+                                            <a href="#" class="gameBtn1">PLAY NOW</a>
+                                            <a href="#" class="gameBtn2">Demo</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="game">
+                                        <img src="./img/icons/game4.jpg" alt="game icon">
+                                        <p>Toto Keno</p>
+                                    </div>
+                                    <div class="gameModal">
+                                        <a href="#"  class="gameInfoContainer">
+                                            <img src="./img/icons/icon--info.png" alt="info icon" class="gameInfo" />
+                                        </a>
+                                        <div class="gameModalBtns">
+                                            <a href="#" class="gameBtn1">PLAY NOW</a>
+                                            <a href="#" class="gameBtn2">Demo</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="game">
+                                        <img src="./img/icons/game5.jpg" alt="game icon">
+                                        <p>Mystery Mansion</p>
+                                    </div>
+                                    <div class="gameModal">
+                                        <a href="#"  class="gameInfoContainer">
+                                            <img src="./img/icons/icon--info.png" alt="info icon" class="gameInfo" />
+                                        </a>
+                                        <div class="gameModalBtns">
+                                            <a href="#" class="gameBtn1">PLAY NOW</a>
+                                            <a href="#" class="gameBtn2">Demo</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="game">
+                                        <img src="./img/icons/game6.jpg" alt="game icon">
+                                        <p>Jewels of Anubis</p>
+                                    </div>
+                                    <div class="gameModal">
+                                        <a href="#"  class="gameInfoContainer">
+                                            <img src="./img/icons/icon--info.png" alt="info icon" class="gameInfo" />
+                                        </a>
+                                        <div class="gameModalBtns">
+                                            <a href="#" class="gameBtn1">PLAY NOW</a>
+                                            <a href="#" class="gameBtn2">Demo</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="fastSport">
+                        <div class="fastSportTop ">
+                            <h3>Fast Sport  <a href="#"><img src="./img/icons/info-icon-light.png" alt="info icon"></a></h3>
+                        </div>
+                        <form action="" class="fastSportBottom midForm">
+                            <input type="text" class="fast1">
+                            <input type="text" class="fast2">
+                            <a href="#"><img src="./img/icons/arr-light.png" alt=""></a>
+                        </form>
+                    </div>
+
+                    <div class="fastSport">
+                        <div class="fastSportTop ">
+                            <h3>Coupon Check</h3>
+                        </div>
+                        <form action="" class="fastSportBottom midForm">
+                            <input type="text" class="fast3">
+                            <a href="#"><img src="./img/icons/arr-light.png" alt=""></a>
+                        </form>
+                        <div class="bottom">
+                            <p>Insert the coupon code you wish to check</p>
+                        </div>
+                    </div>
+
+                       
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                        <a href="#"><img src="./img/rounded.png"></a>
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <a href="#"><img src="./img/rounded.png"></a>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <a href="#"><img src="./img/rounded.png"></a>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <a href="#"><img src="./img/rounded.png"></a>
+                        </div>
+                        
+                        
+                        <!-- The dots/circles -->
+                        <div class='controls' style="text-align:center">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <a class="next" id="nxt" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    </div >
+
+                    <a href="#" class="mb">
+                        <img src="./img/CONTACT-US.png" alt="contact us">
+                    </a>
+
+                    <div class="lucky-container">
+                        
+                            <img src="./img/LUCKYPICK-1.jpg" alt="LUCKYPICK">
+                        
+                        <div class="lucky-content">
+                            <div class="lucky-left lucky">
+                                <p>To win</p>
+                                <input type="text">
+                            </div>
+                            <div class="lucky-right lucky">
+                                <p>Your stake</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <a href="#" class="genBtn">GENERATE BET</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer-section">
+        <div class="footer-inner">
+
+            <div class="footer-side-a">
+
+                <div class="footer-links">
+                    <div class="footer-links-inner">
+                        <span class="footer-links-head">Netbet</span>
+    
+                        <ul class="footer-links-list">
+                            <li class="footer-links-list-li"><a href="#">Home</a></li>
+                            <li class="footer-links-list-li"><a href="#">About Us</a></li>
+                            <li class="footer-links-list-li"><a href="#">Become an Agent</a></li>
+                            <li class="footer-links-list-li"><a href="#">Web Affillates</a></li>
+                            <li class="footer-links-list-li"><a href="#">Results</a></li>
+                            <li class="footer-links-list-li"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-img">
+                        <div class="footer-img-a">
+                            <img class="footer-img-a-src" src="./img/logo/Logo.png" alt="">
+                        </div>
+                        <div class="footer-img-a">
+                            <img class="footer-img-a-src" src="./img/logo/site-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paymeth-container">
+                    <div class="paymeth-inner">
+                        <span class="paymeth-head">Payment Methods</span>
+
+                        <div class="paymeth-img">
+                            <img class="paymeth-img-src" src="./img/pay-met.png" alt="">
+                        </div>
+                    </div>
+
+                    <span class="footer-copy">© Netbet 2020 . All Rights Reserved.</span>
+                </div>
+
+            </div>
+
+
+            <div class="footer-side-b">
+
+                <div class="resp-container">
+                    <span class="resp-head">Responsible & Secure Gaming.</span>
+
+                    <div class="resp-img">
+                        <img class="resp-img-src" src="./img/logo/play-responsibly.png" alt="">
+                    </div>
+                </div>
+
+                <div class="terms-container">
+                    <span class="terms-head">Terms and Conditions</span>
+
+                    <ul class="terms-list">
+                        <li class="terms-list-li"><a href="#">General T&C</a></li>
+                        <li class="terms-list-li"><a href="#">Sport T&C</a></li>
+                        <li class="terms-list-li"><a href="#">Live Betting T&C</a></li>
+                        <li class="terms-list-li"><a href="#">Casino T&C</a></li>
+                        <li class="terms-list-li"><a href="#">Racing T&C</a></li>
+                        <li class="terms-list-li"><a href="#">Netbet T&C</a></li>
+                        <li class="terms-list-li"><a href="#">Responsible Gaming</a></li>
+                        <li class="terms-list-li"><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </footer>
+
+</body>
+</html>
